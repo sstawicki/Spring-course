@@ -28,6 +28,11 @@
     <constructor-arg ref="myFortune" />  
     </bean>
     
+    <bean id = "myCoachCricket"
+    class = "com.bumper.springdemo.CricketCoach">
+    <property name="fortuneService" ref="myFortune" />
+    </bean>
+    
    
 </beans>
 
