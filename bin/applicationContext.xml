@@ -31,6 +31,8 @@
     <bean id = "myCoachCricket"
     class = "com.bumper.springdemo.CricketCoach">
     <property name="fortuneService" ref="myFortune" />
+    <property name="emailAddress" value="thebestcoach@bumper.com" />
+    <property name="team" value = "Dream team" />
     </bean>
     
    
