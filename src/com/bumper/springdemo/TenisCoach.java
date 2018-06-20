@@ -1,5 +1,7 @@
 package com.bumper.springdemo;
 
+import org.springframework.stereotype.Component;
+
 public class TenisCoach implements Coach {
 	
 private FortuneService fortuneService;
